@@ -77,7 +77,16 @@ main .location i {
     rgba(225, 121, 218, 0.9)
   );
 }
-
+@media (min-width: 640px){
+  .explore button{
+      background-image: linear-gradient(
+    to top,
+    blue,
+   red
+  );
+  }
+  
+}
 /* FONCTIONNEMENT */
 .functioning h2 {
   margin-left: 15px;
