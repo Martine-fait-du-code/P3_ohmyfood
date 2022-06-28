@@ -207,14 +207,14 @@ a {
   font-size: 14px;
 }
 
-.description-card i {
+.restauCard .like {
   font-size: 25px;
   position: relative;
   bottom: 50px;
   left: 88%;
 }
 
-.description-card .fa-solid {
+.restauCard .fa-solid {
   color: transparent;
   background: linear-gradient(
     to top,
@@ -225,11 +225,11 @@ a {
   -webkit-background-clip: text;
   opacity: 0;
   position: relative;
-  left: 88%;
+  right: 31px;
   transition: all, 0.7s;
 }
 
-.description-card .fa-solid:hover {
+.like .fa-solid:hover {
   opacity: 1;
 }
 
