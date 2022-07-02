@@ -54,6 +54,7 @@ header img {
   bottom: 7px;
   left: 88%;
   width: 30px;
+  cursor: pointer;
 }
 
 .like .fa-solid {
@@ -94,7 +95,7 @@ header img {
   padding-bottom: 20px;
 }
 
- .card {
+.card {
   background: white;
   width: 90%;
   height: 55px;
@@ -102,10 +103,9 @@ header img {
   line-height: 0.7;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-   /* animation-duration: 0.5s; */
+  /* animation-duration: 0.5s; */
   /* overflow: hidden; */
- }
-
+}
 
 .card h4 {
   margin: 0;
@@ -133,12 +133,23 @@ header img {
   display: flex;
   flex-direction: column;
   background-color: #99e2d0;
-  margin: -44px -52px 0px auto;
+  margin: -52px -35px 0px auto;
   height: 55px;
   width: 50px;
   justify-content: center;
   align-items: center;
   border-radius: 0 16px 16px 0;
+}
+
+.check i {
+  background: white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #99e2d0;
 }
 
 .dishes {
