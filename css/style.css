@@ -79,6 +79,7 @@ main .location i {
     rgba(147, 86, 220, 0.9),
     rgba(225, 121, 218, 0.9)
   );
+  cursor: pointer;
 }
 
 /* FONCTIONNEMENT */
