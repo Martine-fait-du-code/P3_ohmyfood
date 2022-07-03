@@ -28,6 +28,15 @@ header img {
   max-width: 100%;
 }
 
+header i {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: black;
+  font-size: 20px;
+
+}
+
 /* MENU */
 .menu {
   background-color: #f3f3f3;
@@ -187,6 +196,7 @@ header img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 /* FOOTER */
