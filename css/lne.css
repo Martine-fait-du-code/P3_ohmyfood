@@ -185,6 +185,22 @@ header i {
   color: #99e2d0;
 }
 
+.card:hover i{
+animation-duration: 0.7s;
+animation-name: spin;
+transform: rotate(360deg);
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
+
 .dishes {
   margin-left: 20px;
   gap: 12px;
