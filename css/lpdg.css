@@ -235,6 +235,14 @@ transform: rotate(360deg);
   cursor: pointer;
 }
 
+.menu button:hover{
+  background-image: linear-gradient(
+    to top,
+    rgba(225, 121, 218, 0.9),
+    rgba(147, 86, 220, 0.9)
+  );
+}
+
 /* FOOTER */
 footer {
   background-color: rgb(56, 56, 56);
