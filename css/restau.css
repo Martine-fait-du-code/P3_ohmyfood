@@ -138,13 +138,14 @@ header i {
 }
 
 @keyframes emergence {
-  0% {
+  0%{
     transform: scale(0.7);
-    opacity: 0;
+    opacity: 0;  
   }
-  100% {
+
+  100%{
     transform: scale(1);
-  }
+    }
 }
 
 .description-card {
