@@ -19,6 +19,44 @@ body {
   width: 180px;
 }
 
+.loader{
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  opacity: 0.8;
+  /* animation: vanishing 1s;
+  animation-fill-mode: forwards;
+  transform-origin: top; */
+}
+
+.loader i{
+  animation: loading 3s;
+}
+
+@keyframes vanishing {
+  from{
+    transform: scale(1);
+  }
+
+  to{
+    transform: scale(0);
+  }
+  
+}
+
+@keyframes loading {
+   from{
+    transform: rotate(0deg);
+   }
+
+  to{
+    transform: rotate(360deg);
+  }
+  
+}
+
 header {
   padding-bottom: 20px;
   padding-top: 15px;
@@ -142,9 +180,6 @@ li:hover i {
 }
 
 @media screen and (min-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
 
   h2 {
     text-align: center;
@@ -257,6 +292,7 @@ a {
   position: relative;
   bottom: 50px;
   left: 88%;
+  width: 30px;
 }
 
 .restauCard .fa-solid {
@@ -279,9 +315,7 @@ a {
 }
 
 @media screen and (min-width: 700px) {
-  body {
-    overflow-x: hidden;
-  }
+  
   .restauCard {
     flex-direction: row;
     flex-wrap: wrap;
@@ -300,9 +334,6 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  body {
-    overflow-x: hidden;
-  }
 
   .new-card {
     width: 20vw;
