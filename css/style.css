@@ -142,9 +142,9 @@ li:hover i {
 }
 
 @media screen and (min-width: 600px) {
-   body{
+  body {
     overflow-x: hidden;
-   }
+  }
 
   h2 {
     text-align: center;
@@ -213,13 +213,12 @@ li:hover i {
   margin-left: 85%;
 }
 
-
-.new-card img{
+.new-card img {
   position: relative;
   top: -45px;
 }
 
-.new-card .text-card{
+.new-card .text-card {
   margin-top: -45px;
 }
 
@@ -280,6 +279,9 @@ a {
 }
 
 @media screen and (min-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
   .restauCard {
     flex-direction: row;
     flex-wrap: wrap;
@@ -289,25 +291,27 @@ a {
   .new-card {
     width: 40vw;
   }
-  .new-card::before{
+  .new-card::before {
     margin-left: 75%;
   }
-  .card{
+  .card {
     width: 40vw;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
 
-   .new-card {
+  .new-card {
     width: 20vw;
   }
 
-  .card{
+  .card {
     width: 20vw;
   }
 }
-
 
 /* FOOTER */
 
