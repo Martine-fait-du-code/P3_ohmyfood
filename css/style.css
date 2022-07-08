@@ -142,6 +142,10 @@ li:hover i {
 }
 
 @media screen and (min-width: 600px) {
+   body{
+    overflow-x: hidden;
+   }
+
   h2 {
     text-align: center;
     margin-left: 0px;
