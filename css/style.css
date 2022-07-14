@@ -86,7 +86,7 @@ main .location {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  background-color: #dddddd;
+  background-color: #e6e6e6;
   text-align: center;
   opacity: 0.8;
   font-size: 12px;
@@ -99,7 +99,7 @@ main .location i {
 /* RECHERCHE */
 .explore {
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
   padding-bottom: 50px;
   padding-top: 15px;
 }
@@ -129,17 +129,18 @@ main .location i {
   box-shadow: 2px 5px 15px -7px black;
   margin-top: 15px;
   background-image: linear-gradient(
-    to top,
+    to  top left,
     rgba(147, 86, 220, 0.9),
-    rgba(225, 121, 218, 0.9)
+    rgba(225, 121, 218, 0.9) 70%
+    
   );
   cursor: pointer;
 }
 
 .explore button:hover {
   background-image: linear-gradient(
-    to top,
-    rgba(225, 121, 218, 0.9),
+    to top left,
+    rgba(225, 121, 218, 0.9) ,
     rgba(147, 86, 220, 0.9)
   );
 }
@@ -158,7 +159,7 @@ main .location i {
 }
 
 .functioning li {
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 16px;
   font-weight: bold;
@@ -174,7 +175,7 @@ main .location i {
 
 .step {
   position: relative;
-  left: -25px;
+  left: -35px;
   border: solid 1px rgba(147, 86, 220, 0.9);
   padding: 3px 7px 3px 7px;
   font-size: 14px;
@@ -211,7 +212,7 @@ li:hover i {
 /* RESTAURANTS */
 
 .restaurants {
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
   margin-top: 50px;
   padding-bottom: 50px;
 }
@@ -321,7 +322,7 @@ a {
   opacity: 0;
   position: relative;
   right: 31px;
-  transition: all, 0.5s;
+  transition: all, 0.8s;
 }
 
 .like .fa-solid:hover {

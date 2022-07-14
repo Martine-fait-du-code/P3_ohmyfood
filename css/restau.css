@@ -41,7 +41,7 @@ header i {
 /* MENU */
 .menu {
   position: relative;
-  background-color: #f3f3f3;
+  background-color: #f2f2f2;
   border-radius: 35px 35px 0 0;
   display: flex;
   flex-direction: column;
@@ -72,10 +72,15 @@ header i {
   top: 60px;
 }
 
+.like .fa-regular{
+  position: relative;
+  top: -7px;
+}
+
 .like .fa-solid {
   font-size: 25px;
   position: relative;
-  top: -30px;
+  top: -38px;
   color: transparent;
   background: linear-gradient(
     to top,
@@ -85,7 +90,7 @@ header i {
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
-  transition: all, 0.5s;
+  transition: all, 0.8s;
 }
 
 .like .fa-solid:hover {
@@ -125,26 +130,27 @@ header i {
 }
 
 .tempo1 {
-  animation: emergence 0.5s;
+  animation: emergence 0.5s ease-in-out;
+  
 }
 .tempo2 {
-  animation: emergence 1s;
+  animation: emergence 1s ease-in-out;
 }
 .tempo3 {
-  animation: emergence 1.5s;
+  animation: emergence 1.5s ease-in-out;
 }
 .tempo4 {
-  animation: emergence 2s;
+  animation: emergence 2s ease-in-out;
 }
 
 @keyframes emergence {
   0%{
-    transform: scale(0.7);
+    transform: translateY(20%);
     opacity: 0;  
   }
 
   100%{
-    transform: scale(1);
+    transform: translateY(0);
     }
 }
 
@@ -189,6 +195,7 @@ header i {
   align-items: center;
   border-radius: 0 16px 16px 0;
   margin-right: -50px;
+  transition: all 0.5s;
 }
 
 .card:hover .check {
@@ -283,9 +290,9 @@ button {
   box-shadow: 2px 5px 15px -7px black;
   margin-top: 15px;
   background-image: linear-gradient(
-    to top,
+    to top left,
     rgba(147, 86, 220, 0.9),
-    rgba(225, 121, 218, 0.9)
+    rgba(225, 121, 218, 0.9) 70%
   );
   margin-left: auto;
   margin-right: auto;
@@ -295,7 +302,7 @@ button {
 
 .menu button:hover {
   background-image: linear-gradient(
-    to top,
+    to top left,
     rgba(225, 121, 218, 0.9),
     rgba(147, 86, 220, 0.9)
   );
