@@ -130,17 +130,17 @@ header i {
 }
 
 .tempo1 {
-  animation: emergence 0.5s ease-in-out;
+  animation: emergence 0.5s;
   
 }
 .tempo2 {
-  animation: emergence 1s ease-in-out;
+  animation: emergence 1s;
 }
 .tempo3 {
-  animation: emergence 1.5s ease-in-out;
+  animation: emergence 1.5s;
 }
 .tempo4 {
-  animation: emergence 2s ease-in-out;
+  animation: emergence 2s;
 }
 
 @keyframes emergence {
